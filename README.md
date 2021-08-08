@@ -11,8 +11,8 @@ It uses javaFX for smooth UI with various visual elements like pie charts, line 
 
 
 Interface when text is related to covid-19.
-![alt text](https://github.com/sahilsharma0223/covid-classifier/blob/master/screenshots/page1.png?raw=true)
+![alt text](https://github.com/sahilsharma0223/covid-classify/blob/master/screenshots/page1.png?raw=true)
 
 
 Interface when text in not related to covid
-![alt text](https://github.com/sahilsharma0223/covid-classifier/blob/master/screenshots/page2.png?raw=true)
+![alt text](https://github.com/sahilsharma0223/covid-classify/blob/master/screenshots/page2.png?raw=true)
