@@ -1,0 +1,31 @@
+=== Evaluation summary ===
+  Number of sentences:     46
+    Min sentence size:      8
+    Max sentence size:    663
+Average sentence size: 319.74
+           Tags count:      2
+             Accuracy: 80.43%
+
+<-end> Evaluation Corpus Statistics
+
+=== Detailed Accuracy By Tag ===
+
+-----------------------------------------------------------------------
+|    Tag | Errors |  Count |   % Err | Precision | Recall | F-Measure |
+-----------------------------------------------------------------------
+| Others |      7 |     20 | 0.35    | 0.867     | 0.65   | 0.743     |
+| Corona |      2 |     26 | 0.077   | 0.774     | 0.923  | 0.842     |
+-----------------------------------------------------------------------
+
+<-end> Tags with the highest number of errors
+
+=== Confusion matrix ===
+
+Tags with 100% accuracy: 
+
+   a    b | Accuracy | <-- classified as
+ <24>   2 |   -100%  |     a = Corona
+   7  <13>|   -100%  |     b = Others
+
+<-end> Confusion matrix
+

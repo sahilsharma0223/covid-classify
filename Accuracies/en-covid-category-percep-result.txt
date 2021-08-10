@@ -1,0 +1,35 @@
+=== Evaluation summary ===
+  Number of sentences:     30
+    Min sentence size:      6
+    Max sentence size:     43
+Average sentence size:  19.47
+           Tags count:      4
+             Accuracy: 53.33%
+
+<-end> Evaluation Corpus Statistics
+
+=== Detailed Accuracy By Tag ===
+
+---------------------------------------------------------------------------
+|        Tag | Errors |  Count |   % Err | Precision | Recall | F-Measure |
+---------------------------------------------------------------------------
+|     Corona |      9 |     17 | 0.529   | 0.615     | 0.471  | 0.533     |
+| Statistics |      3 |      3 | 1       | 0         | 0      | 0         |
+|     Offers |      2 |      5 | 0.4     | 1         | 0.6    | 0.75      |
+|   Requests |      0 |      5 | 0       | 0.357     | 1      | 0.526     |
+---------------------------------------------------------------------------
+
+<-end> Tags with the highest number of errors
+
+=== Confusion matrix ===
+
+Tags with 100% accuracy: 
+
+  a   b   c   d | Accuracy | <-- classified as
+ <8>  .   9   . |   -100%  |     a = Corona
+  2  <3>  .   . |   -100%  |     b = Offers
+  .   .  <5>  . |   -100%  |     c = Requests
+  3   .   .  <.>|   -100%  |     d = Statistics
+
+<-end> Confusion matrix
+
